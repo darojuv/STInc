@@ -18,7 +18,7 @@ namespace STInc.MobileAppService
                 .UseIISIntegration()
                 .UseStartup<Startup>()
                 .Build();
-
+            //commect
             host.Run();
         }
     }
